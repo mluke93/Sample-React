@@ -1,2 +1,11 @@
-# React-Starter
-Set up for all React Projects
+React-Starter
+---
+
+Welcome
+
+Setup
+---
+
+```
+npm install
+```

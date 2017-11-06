@@ -1,0 +1,20 @@
+{
+  "name": "React-Starter",
+  "version": "1.0.0",
+  "description": "Set up for all React Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mluke93/React-Starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mluke93/React-Starter/issues"
+  },
+  "homepage": "https://github.com/mluke93/React-Starter#readme"
+}
