@@ -4,7 +4,9 @@
   "description": "Set up for all React Projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "webpack",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,12 @@
     "babel-loader": "^7.1.2",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^3.8.1"
+    "express": "^4.16.2",
+    "install": "^0.10.1",
+    "npm": "^5.5.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-middleware": "^1.12.0"
   }
 }
