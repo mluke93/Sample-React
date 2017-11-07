@@ -1,10 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './Counter';
+import App from './App';
 
-document.addEventListener('DOMContentLoaded', function() {
+var DATA = {
+    name: 'John Smith',
+    imgURL: 'http://lorempixel.com/200/200/',
+    hobbyList: ['coding', 'writing', 'skiing']
+}
+
+document.addEventListener('DOMContentLoaded', function () {
   ReactDOM.render(
-    React.createElement(Counter),
-    document.getElementById('mount')
+      <App profileData={DATA} />,
+      document.getElementById('mount')
   );
 });
